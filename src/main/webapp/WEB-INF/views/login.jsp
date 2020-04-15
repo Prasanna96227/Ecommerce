@@ -3,7 +3,7 @@
 
 <div class="container-wrapper">
     <div class="login-container">
-        <div id="login-box">
+        <div id="login-box" >
 
             <h2>Login with Username and Password</h2>
 
@@ -15,16 +15,16 @@
                 <c:if test="${not empty error}">
                     <div class="error" style="color: #ff0000;">${error}</div>
                 </c:if>
-                <div class="form-group">
+                <div class="form-group" align="center">
                     <label for="username">User: </label>
                     <input type="text" id="username" name="username" class="form-control" />
                 </div>
-                <div class="form-group">
+                <div class="form-group" align="center">
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" class="form-control" />
                 </div>
 
-                <input type="submit" value="Submit" class="btn btn-default">
+                <input type="submit" value="Submit" class="btn btn-default" align="center">
 
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
             </form>
