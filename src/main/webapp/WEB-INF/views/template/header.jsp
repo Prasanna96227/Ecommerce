@@ -37,8 +37,6 @@
 
 
 
-
-
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -64,15 +62,29 @@
                         <li><a href="<c:url value="/product/productList/all" />">Products</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
+
                         <c:if test="${pageContext.request.userPrincipal.name != null}">
                             <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
                             <li><a href="<c:url value="/j_spring_security_logout" />">Logout</a></li>
-                            <c:if test="${pageContext.request.userPrincipal.name != 'admin'}">
-                                <li><a href="<c:url value="/customer/cart" />">Cart</a></li>
-                            </c:if>
+
+                            <c:forEach items="${customers}" var="customer">
+
+                                <c:if test ="${pageContext.request.userPrincipal.name == customer.username }">
+                                    <li><a href="<c:url value="/customer/cart" />">Cart</a></li>
+                                </c:if>
+                            </c:forEach>
+
                             <c:if test="${pageContext.request.userPrincipal.name  == 'admin'}">
-                                <li><a href="<c:url value="/admin" />">Admin</a></li>
+                                    <li><a href="<c:url value="/admin" />">Admin</a></li>
                             </c:if>
+                            <c:forEach items="${sales}" var="sale">
+                                <c:if test="${pageContext.request.userPrincipal.name  == sale.managername}">
+                                    <li><a href="<c:url value="/admin" />">Good</a></li>
+                                </c:if>
+                            </c:forEach>
+
+
+
                         </c:if>
                         <c:if test="${pageContext.request.userPrincipal.name  == null}">
                         <li><a href="<c:url value="/login/" />">Login</a></li>

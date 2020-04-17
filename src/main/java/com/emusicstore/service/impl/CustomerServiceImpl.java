@@ -2,6 +2,7 @@ package com.emusicstore.service.impl;
 
 import com.emusicstore.dao.CustomerDao;
 import com.emusicstore.model.Customer;
+import com.emusicstore.model.ShopManagers;
 import com.emusicstore.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,4 +34,8 @@ public class CustomerServiceImpl implements CustomerService{
     public Customer getCustomerByUsername (String username) {
         return customerDao.getCustomerByUsername(username);
     }
+
+
+
+
 }

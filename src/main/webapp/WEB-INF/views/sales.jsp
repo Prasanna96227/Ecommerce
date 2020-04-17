@@ -5,36 +5,38 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Register Customer</h1>
+            <h1>Register Shop Managers</h1>
 
             <p class="lead">Please fill in your information below:</p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/register" method="post"
-                   commandName="customer">
+        <form:form action="${pageContext.request.contextPath}/registers" method="post"
+                   commandName="sales">
 
         <h3>Basic Info</h3>
 
         <div class="form-group">
-            <label for="name">Name</label><form:errors path="customerName" cssStyle="color: #ff0000"/>
-            <form:input path="customerName" id="name" class="form-Control"/>
+            <label for="name">Name</label><form:errors path="shopName" cssStyle="color: #ff0000"/>
+            <form:input path="shopName" id="name" class="form-Control"/>
         </div>
 
         <div class="form-group">
             <label for="email">Email</label><span style="color: #ff0000">${emailMsg}</span><form:errors
-                path="customerEmail" cssStyle="color: #ff0000"/>
-            <form:input path="customerEmail" id="email" class="form-Control"/>
+                path="managerEmail" cssStyle="color: #ff0000"/>
+            <form:input path="managerEmail" id="email" class="form-Control"/>
         </div>
 
         <div class="form-group">
             <label for="phone">Phone</label>
-            <form:input path="customerPhone" id="phone" class="form-Control"/>
+            <form:input path="managerPhone" id="phone" class="form-Control"/>
         </div>
 
+
+
         <div class="form-group">
-            <label for="username">Username</label><span style="color: #ff0000">${usernameMsg}</span><form:errors
-                path="username" cssStyle="color: #ff0000"/>
-            <form:input path="username" id="username" class="form-Control"/>
+            <label for="username">Manager Name</label><span style="color: #ff0000">${usernameMsg}</span><form:errors
+                path="managername" cssStyle="color: #ff0000"/>
+            <form:input path="managername" id="username" class="form-Control"/>
         </div>
 
         <div class="form-group">

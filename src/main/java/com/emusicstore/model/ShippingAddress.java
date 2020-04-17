@@ -28,6 +28,17 @@ public class ShippingAddress implements Serializable{
     @OneToOne
     private Customer customer;
 
+    @OneToOne
+    private ShopManagers sales;
+
+    public ShopManagers getSales() {
+        return sales;
+    }
+
+    public void setSales(ShopManagers sales) {
+        this.sales = sales;
+    }
+
     public int getShippingAddressId() {
         return shippingAddressId;
     }

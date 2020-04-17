@@ -1,9 +1,6 @@
 package com.emusicstore.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
@@ -27,6 +24,19 @@ public class BillingAddress implements Serializable{
 
     @OneToOne
     private Customer customer;
+
+    @OneToOne
+    private ShopManagers sales;
+
+    public ShopManagers getSales() {
+        return sales;
+    }
+
+    public void setSales(ShopManagers sales) {
+        this.sales = sales;
+    }
+
+
 
     public int getBillingAddressId() {
         return billingAddressId;

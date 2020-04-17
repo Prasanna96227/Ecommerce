@@ -8,15 +8,37 @@
   <component name="ChangeListManager">
     <list default="true" id="7c66da60-8cee-40a8-8669-bb72c865a82e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/BillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/ShippingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/ShippingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/BillingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/BillingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/ShippingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/ShippingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomerSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomerSuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/BillingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/BillingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/ShippingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/ShippingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +56,10 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="JavaScript File" />
+        <option value="webflow.2_0" />
+        <option value="CSS File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="webflow.2_0" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -71,7 +94,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="D:\Development Tools\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="D:/fdfb971b-954a-4d18-8884-08203da0d9d3/eMusicStore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -409,11 +433,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -464,7 +483,11 @@
       <workItem from="1586919947893" duration="366000" />
       <workItem from="1586920509956" duration="139000" />
       <workItem from="1586920669916" duration="1654000" />
-      <workItem from="1586968707577" duration="13984000" />
+      <workItem from="1586968707577" duration="30810000" />
+      <workItem from="1587010092787" duration="9000" />
+      <workItem from="1587047958839" duration="24397000" />
+      <workItem from="1587095643392" duration="10000" />
+      <workItem from="1587154628722" duration="1204000" />
     </task>
     <servers />
   </component>
@@ -489,58 +512,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585880011190" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1587004382038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587004382038" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587063523567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587063523567" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1586971003342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586971003342" />
-    <state width="1140" height="383" key="GridCell.Tab.0.bottom" timestamp="1586984018025">
+    <state width="1140" height="98" key="GridCell.Tab.0.bottom" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586984018025" />
-    <state width="1140" height="383" key="GridCell.Tab.0.center" timestamp="1586984018025">
+    <state width="1140" height="98" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.0.center" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586984018025" />
-    <state width="1140" height="383" key="GridCell.Tab.0.left" timestamp="1586984018025">
+    <state width="1140" height="98" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.0.left" timestamp="1587095592190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586984018025" />
-    <state width="1140" height="383" key="GridCell.Tab.0.right" timestamp="1586984018025">
+    <state width="1140" height="98" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587095592190" />
+    <state width="1140" height="98" key="GridCell.Tab.0.right" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586984018025" />
-    <state width="1140" height="383" key="GridCell.Tab.1.bottom" timestamp="1586984017981">
+    <state width="1140" height="98" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.1.bottom" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586984017981" />
-    <state width="1140" height="383" key="GridCell.Tab.1.center" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.1.center" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.1.left" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.1.left" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.1.right" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.1.right" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.2.bottom" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.2.bottom" timestamp="1587095592192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.2.center" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587095592192" />
+    <state width="1140" height="98" key="GridCell.Tab.2.center" timestamp="1587095592192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.2.left" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587095592192" />
+    <state width="1140" height="98" key="GridCell.Tab.2.left" timestamp="1587095592191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
-    <state width="1140" height="383" key="GridCell.Tab.2.right" timestamp="1586984017980">
+    <state width="1140" height="98" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587095592191" />
+    <state width="1140" height="98" key="GridCell.Tab.2.right" timestamp="1587095592192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1140" height="383" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586984017980" />
+    <state width="1140" height="98" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587095592192" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1585880236968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -549,25 +580,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" width="1215" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586920635330" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1586968732018">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1587154642357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586968732018" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587154642357" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1586975350948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586975350948" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/emusicstore/controller/ProductController.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

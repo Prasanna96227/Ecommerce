@@ -1,6 +1,7 @@
 package com.emusicstore.service;
 
 import com.emusicstore.model.Customer;
+import com.emusicstore.model.ShopManagers;
 
 import java.util.List;
 
@@ -16,4 +17,6 @@ public interface CustomerService {
     List<Customer> getAllCustomers();
 
     Customer getCustomerByUsername (String username);
+
+
 }

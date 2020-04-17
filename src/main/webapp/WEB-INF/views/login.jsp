@@ -3,7 +3,7 @@
 
 <div class="container-wrapper">
     <div class="login-container">
-        <div id="login-box" >
+        <div id="login-box" align="center">
 
             <h2>Login with Username and Password</h2>
 

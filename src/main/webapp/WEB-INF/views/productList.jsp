@@ -11,7 +11,6 @@
 </script>
 
 
-
 <div class="container-wrapper">
     <div class="container">
             <br/>  <br/> <br/> <br/>
@@ -29,13 +28,14 @@
             </thead>
 
             <c:forEach items="${products}" var="product">
+
                 <tr>
-                    <td align="center"><img src="<c:url value="/resources/images/${product.productId}.png" /> " alt="image"
-                                             style="width:50%"/></td>
-                    <td>${product.productName}</td>
-                    <td>${product.productCategory}</td>
-                    <td><a href="<spring:url value="/product/viewProduct/${product.productId}" />"
-                    >View info</a></td>
+                    <td width= "200px" height="160px"><img src="<c:url value="/resources/images/${product.productId}.png" /> " alt="image"
+                                                           width= "200px" height="160px" /></td>
+                    <td align="center" width= "200px" height="160px">${product.productName}</td>
+                    <td align="center" width= "200px" height="160px">${product.productCategory}</td>
+                    <td align="center" width= "200px" height="160px"><a href="<spring:url value="/product/viewProduct/${product.productId}" />"
+                    >View product</a></td>
                 </tr>
             </c:forEach>
 

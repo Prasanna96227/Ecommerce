@@ -56,6 +56,8 @@ public class CustomerDaoImpl implements CustomerDao{
         session.flush();
     }
 
+
+
     public Customer getCustomerById (int customerId) {
         Session session = sessionFactory.getCurrentSession();
         return (Customer) session.get(Customer.class, customerId);
