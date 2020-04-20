@@ -79,7 +79,7 @@
                             </c:if>
                             <c:forEach items="${sales}" var="sale">
                                 <c:if test="${pageContext.request.userPrincipal.name  == sale.managername}">
-                                    <li><a href="<c:url value="/admin" />">Good</a></li>
+                                    <li><a href="<c:url value="/shop" />">Good</a></li>
                                 </c:if>
                             </c:forEach>
 

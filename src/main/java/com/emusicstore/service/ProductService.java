@@ -11,6 +11,8 @@ public interface ProductService {
 
     List<Product> getProductList();
 
+    List<Product> getProductByType(String type);
+
     Product getProductById(int id);
 
     void addProduct(Product product);

@@ -27,6 +27,16 @@ public class Product implements Serializable{
     @NotEmpty (message = "The product name must not be null.")
 
     private String productName;
+    private String typeofperson;
+
+    public String getTypeofperson() {
+        return typeofperson;
+    }
+
+    public void setTypeofperson(String typeofperson) {
+        this.typeofperson = typeofperson;
+    }
+
     private String productCategory;
     private String productDescription;
 
@@ -41,6 +51,8 @@ public class Product implements Serializable{
 
     @Transient
     private MultipartFile productImage;
+
+
 
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.EAGER)

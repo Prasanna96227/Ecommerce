@@ -13,6 +13,8 @@ public interface ProductDao {
 
     Product getProductById(int id);
 
+    List<Product> getProductByType(String type);
+
     void addProduct(Product product);
 
     void editProduct(Product product);

@@ -31,7 +31,7 @@
                 <th></th>
             </tr>
             </thead>
-            <c:forEach items="${products}" var="product">
+            <c:forEach items="${product}" var="product">
                 <tr>
                     <td><img src="<c:url value="/resources/images/${product.productId}.png" /> " alt="image"
                              style="width:100%"/></td>
@@ -41,15 +41,27 @@
                     <td>${product.productPrice} USD</td>
                     <td><a href="<spring:url value="/product/viewProduct/${product.productId}" />"
                     ><span class="glyphicon glyphicon-info-sign"></span></a>
+                        <c:if test="${pageContext.request.userPrincipal.name  == 'admin'}">
                         <a href="<spring:url value="/admin/product/deleteProduct/${product.productId}" />"
                         ><span class="glyphicon glyphicon-remove"></span></a>
                         <a href="<spring:url value="/admin/product/editProduct/${product.productId}" />"
                         ><span class="glyphicon glyphicon-pencil"></span></a>
+                        </c:if>
+                        <c:if test="${pageContext.request.userPrincipal.name  != 'admin'}">
+                            <a href="<spring:url value="/shop/product/deleteProduct/${product.productId}" />"
+                            ><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="<spring:url value="/shop/product/editProduct/${product.productId}" />"
+                            ><span class="glyphicon glyphicon-pencil"></span></a>
+                        </c:if>
                     </td>
                 </tr>
             </c:forEach>
         </table>
 
-        <a href="<spring:url value="/admin/product/addProduct" />" class="btn btn-primary">Add Product</a>
+        <c:if test="${pageContext.request.userPrincipal.name  == 'admin'}">
+            <li><a href="<spring:url value="/admin/product/addProduct" />" class="btn btn-primary">Add Product</a>
+        </c:if>
 
-        <%@include file="/WEB-INF/views/template/footer.jsp" %>
+        <c:if test="${pageContext.request.userPrincipal.name  != 'admin'}">
+            <li><a href="<spring:url value="/shop/product/addshop" />" class="btn btn-primary">Add Product</a>
+        </c:if>

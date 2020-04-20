@@ -37,6 +37,8 @@
             <form:input path="productPrice" id="price" class="form-Control"/>
         </div>
 
+            <form:input type="hidden" path="typeofperson" id="type" value = "admin"/>
+
         <div class="form-group">
             <label for="condition">Condition</label>
             <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition"
@@ -73,6 +75,3 @@
         <input type="submit" value="submit" class="btn btn-default">
         <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
         </form:form>
-
-
-        <%@include file="/WEB-INF/views/template/footer.jsp" %>

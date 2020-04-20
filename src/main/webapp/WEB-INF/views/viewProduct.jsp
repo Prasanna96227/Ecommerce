@@ -57,4 +57,3 @@
 
 
         <script src="<c:url value="/resources/js/controller.js" /> "></script>
-        <%@include file="/WEB-INF/views/template/footer.jsp" %>

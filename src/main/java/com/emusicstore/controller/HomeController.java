@@ -2,10 +2,8 @@ package com.emusicstore.controller;
 
 import com.emusicstore.dao.SalesDao;
 import com.emusicstore.model.Customer;
-import com.emusicstore.model.Product;
 import com.emusicstore.model.ShopManagers;
 import com.emusicstore.service.CustomerService;
-import com.emusicstore.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -40,9 +38,9 @@ public class HomeController {
         return "home";
     }
 
+
    // @RequestMapping("/salesregister")
     //public String sales() {        return "salesregister";    }
-
 
 
 

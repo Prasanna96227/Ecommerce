@@ -12,19 +12,18 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Administrator page</h1>
+            <h1>Shop Manager page</h1>
 
-            <p class="lead">This is the administrator page!</p>
         </div>
 
         <c:if test="${pageContext.request.userPrincipal.name != null}">
-            <h2>
-                Welcome: ${pageContext.request.userPrincipal.name} </a>
-            </h2>
+        <h2>
+            Welcome: ${pageContext.request.userPrincipal.name} </a>
+        </h2>
         </c:if>
 
         <h3>
-            <a href="<c:url value="/admin/productInventory" />" >Product Inventory</a>
+            <a href="<c:url value="/shop/productInventory" />" >Product Inventory</a>
         </h3>
 
         <p>Here you can view, check and modify the product inventory!</p>
@@ -32,7 +31,7 @@
         <br><br>
 
         <h3>
-            <a href="<c:url value="/admin/customer" />" >Customer Managementy</a>
+            <a href="<c:url value="/shop/customer" />" >Customer Managementy</a>
         </h3>
 
         <p>Here you can view the customer information!</p>

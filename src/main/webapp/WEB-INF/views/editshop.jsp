@@ -3,23 +3,26 @@
 
 
 <div class="container-wrapper">
-    <div class="container">
-        <div class="page-header">
-            <h1>Edit Product</h1>
+<div class="container">
+<div class="page-header">
+    <h1>Edit Product</h1>
 
-            <p class="lead">Please update the product information here:</p>
-        </div>
+    <p class="lead">Please update the product information here:</p>
+</div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post"
-                   commandName="product" enctype="multipart/form-data">
-            <form:hidden path="productId" value="${product.productId}" />
+<c:if test="${pageContext.request.userPrincipal.name  != 'admin'}">
+    <form:form action="${pageContext.request.contextPath}/shop/product/editProduct" method="post"
+               commandName="product" enctype="multipart/form-data">
+        <form:hidden path="productId" value="${product.productId}" />
 
         <div class="form-group">
             <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control" value="${product.productName}"/>
         </div>
 
-            <form:input type="hidden" path="typeofperson" id="type" value = "${product.typeofperson}"/>
+
+
+        <form:input type="hidden" path="typeofperson" id="type" value = "${product.typeofperson}"/>
 
         <div class="form-group">
             <label for="category">Category</label>
@@ -74,8 +77,7 @@
 
         <br><br>
         <input type="submit" value="submit" class="btn btn-default">
-        <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
-        </form:form>
 
-
-        <%@include file="/WEB-INF/views/template/footer.jsp" %>
+        <a href="<c:url value="/shop/productInventory" />" class="btn btn-default">Cancel</a>
+    </form:form>
+</c:if>

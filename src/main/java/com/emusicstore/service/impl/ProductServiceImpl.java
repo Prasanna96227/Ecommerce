@@ -22,6 +22,10 @@ public class ProductServiceImpl implements ProductService {
         return productDao.getProductById(productId);
     }
 
+    public List<Product> getProductByType(String Type){
+        return productDao.getProductByType(Type);
+    }
+
     public List<Product> getProductList () {
         return productDao.getProductList();
     }

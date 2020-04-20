@@ -16,7 +16,6 @@ import java.util.List;
  */
 
 @Controller
-@RequestMapping("/admin")
 public class AdminHome {
 
     @Autowired
@@ -25,20 +24,35 @@ public class AdminHome {
     @Autowired
     private CustomerService customerService;
 
-    @RequestMapping
+    @RequestMapping("/admin")
     public String adminPage() {
         return "admin";
     }
 
-    @RequestMapping("/productInventory")
+    @RequestMapping("/admin/productInventory")
     public String productInventory(Model model) {
         List<Product> products = productService.getProductList();
         model.addAttribute("products", products);
+        List<Product> product = productService.getProductByType("admin");
+        model.addAttribute("product",product);
 
         return "productInventory";
     }
 
-    @RequestMapping("/customer")
+    @RequestMapping("/shop")
+    public String shop(Model model){
+
+        return "ShopManager";
+    }
+
+    @RequestMapping("/shop/productInventory")
+    public String shopproduct(Model model) {List<Product> product = productService.getProductByType("shop");
+        model.addAttribute("product",product);
+
+        return "productInventory";
+    }
+
+    @RequestMapping("/admin/customer")
     public String customerManagement(Model model) {
 
         List<Customer> customerList = customerService.getAllCustomers();

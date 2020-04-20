@@ -36,7 +36,7 @@
 
     <end-state id="endState" />
 
-    <view-state id="invalidCartWarning">
+    <view-state id="InvalidCartWarning">
         <transition to="endState" />
     </view-state>
 

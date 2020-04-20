@@ -17,7 +17,8 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class ProductDaoImpl implements ProductDao {
+public class
+ProductDaoImpl implements ProductDao {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -28,6 +29,17 @@ public class ProductDaoImpl implements ProductDao {
         session.flush();
 
         return product;
+    }
+
+    public List<Product> getProductByType (String type) {
+        Session session = sessionFactory.getCurrentSession();
+
+        Query query = session.createQuery("from Product where typeofperson = ?" );
+        query.setString(0, type);
+        List<Product> productList = query.list();
+        session.flush();
+
+        return productList;
     }
 
     public List<Product> getProductList() {
