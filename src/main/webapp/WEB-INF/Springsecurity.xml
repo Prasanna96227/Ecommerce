@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:e="http://www.springframework.org/schema/security"
+             xmlns="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security.xsd">
+    <import resource="applicationContext.xml"/>
+
+
+    <e:http auto-config="true">
+        <e:intercept-url pattern="/apage/**" access="ROLE_A" />
+        <e:intercept-url pattern="/vieworder/**" access="ROLE_U" />
+        <e:intercept-url pattern="/sale/**" access="ROLE_S" />
+        <e:form-login
+            login-page="/signin"
+            default-target-url="/signs"
+            authentication-failure-url="/s?r"
+            username-parameter="username"
+            password-parameter="password" />
+        <e:logout
+            logout-success-url="/sign?signout" />
+    </e:http>
+
+    <e:authentication-manager>
+        <e:authentication-provider>
+            <e:jdbc-user-service data-source-ref="dataSource"
+                                        authorities-by-username-query="SELECT uname, role From enduser WHERE uname = ?"
+                                        users-by-username-query="SELECT uname, pword, custId FROM enduser WHERE uname = ?" />
+        </e:authentication-provider>
+    </e:authentication-manager>
+
+
+</beans>
